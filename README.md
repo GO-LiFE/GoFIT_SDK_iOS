@@ -1,6 +1,6 @@
 # GoFIT SDK for iOS — [GOLiFE 手環](http://www.goyourlife.com/zh-TW/productlist/#health) App 介接 SDK
 
-此為 [GOLiFE](http://www.goyourlife.com) 釋出之官方 (iOS) App SDK (`Community Edition`).
+此為 [GOLiFE](http://www.goyourlife.com) 釋出之官方 iOS App SDK (`Community Edition`).
 
 Android App 的開發人員，可藉由本 SDK 的整合，即可輕輕鬆鬆快速完成開發，並可直接與市面上 [GOLiFE](http://www.goyourlife.com) 出品銷售之 GOLiFE [Care 系列手環](http://www.goyourlife.com/zh-TW/productlist/#health) 裝置連接，達成包括連線、配對、同步、設定等等各項功能。
 
@@ -8,8 +8,8 @@ Android App 的開發人員，可藉由本 SDK 的整合，即可輕輕鬆鬆快
 
 ## 怎麼用?
 1. 下載本 SDK
-2. 請到 [本網址]() 申請試用憑證 -- 請不用擔心，僅是請您留個聯絡方式，只要填寫 email 或電話大名等等，選取您希望使用的裝置，便馬上發給您 30 天的試用憑證
-3. 將試用憑證如下整合
+2. 請到 [本網址](http://www.goyourlife.com/zh-TW/feedback/) 申請試用憑證 -- 請不用擔心，僅是請您留個聯絡方式，只要填寫 email 或電話大名等等，填寫您希望使用的裝置即可。我們收到後便馬上回覆 30 天的試用憑證給您~
+3. 將收到的憑證，如下整合進您的 App 內 : 
 
     ```
     ```
