@@ -1,4 +1,4 @@
-![GOLiFE Logo](http://www.goyourlife.com/images/common/logo.png)
+[![GOLiFE Logo](http://www.goyourlife.com/images/common/logo.png)](http://www.goyourlife.com)
 
 # GoFIT SDK for iOS — [GOLiFE 手環](http://www.goyourlife.com/zh-TW/productlist/#health) App 介接 SDK
 
@@ -39,3 +39,4 @@ iOS App 的開發人員，可藉由本 SDK 的整合，便可輕輕鬆鬆快速�
 
 &copy; 2018 GOYOURLIFE INC. 
 
+http://www.goyourlife.com
