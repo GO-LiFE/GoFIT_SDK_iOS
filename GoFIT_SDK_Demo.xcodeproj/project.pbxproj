@@ -7,23 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BA3192A20D6C021004210F6 /* nrf52832_CARE_Xc.hex in Resources */ = {isa = PBXBuildFile; fileRef = 4BA3192920D6C020004210F6 /* nrf52832_CARE_Xc.hex */; };
 		929047B720CF9F53009F998F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929047B620CF9F53009F998F /* AppDelegate.m */; };
 		929047BA20CF9F54009F998F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929047B920CF9F54009F998F /* ViewController.m */; };
 		929047BD20CF9F54009F998F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929047BB20CF9F54009F998F /* Main.storyboard */; };
 		929047BF20CF9F55009F998F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929047BE20CF9F55009F998F /* Assets.xcassets */; };
 		929047C220CF9F55009F998F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929047C020CF9F55009F998F /* LaunchScreen.storyboard */; };
 		929047C520CF9F55009F998F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929047C420CF9F55009F998F /* main.m */; };
-		929631BD20CFD65A007D02F6 /* binary_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 929631BB20CFD659007D02F6 /* binary_list.json */; };
-		929631BE20CFD65A007D02F6 /* nrf52832_CARE_Xe.hex in Resources */ = {isa = PBXBuildFile; fileRef = 929631BC20CFD659007D02F6 /* nrf52832_CARE_Xe.hex */; };
-		92AAFB3A2119A6900086311B /* libGoFIT_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 929047CC20CF9FED009F998F /* libGoFIT_SDK.a */; };
-		92F5ED6C210F17480025B879 /* client_cert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 92F5ED6B210F17480025B879 /* client_cert.crt */; };
 		92FC585D20FC8A4000474BEC /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FC585C20FC8A4000474BEC /* libxml2.tbd */; };
 		92FC585F20FC8A7200474BEC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FC585E20FC8A7200474BEC /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4BA3192920D6C020004210F6 /* nrf52832_CARE_Xc.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nrf52832_CARE_Xc.hex; sourceTree = "<group>"; };
 		929047B220CF9F53009F998F /* GoFIT_SDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFIT_SDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929047B520CF9F53009F998F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		929047B620CF9F53009F998F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,12 +28,8 @@
 		929047C120CF9F55009F998F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929047C320CF9F55009F998F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929047C420CF9F55009F998F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		929047CC20CF9FED009F998F /* libGoFIT_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoFIT_SDK.a; sourceTree = "<group>"; };
 		929047CD20CF9FED009F998F /* GoFIT_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoFIT_SDK.h; sourceTree = "<group>"; };
 		929047CF20CFA0EF009F998F /* Handler+Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Handler+Object.h"; sourceTree = "<group>"; };
-		929631BB20CFD659007D02F6 /* binary_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = binary_list.json; sourceTree = "<group>"; };
-		929631BC20CFD659007D02F6 /* nrf52832_CARE_Xe.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nrf52832_CARE_Xe.hex; sourceTree = "<group>"; };
-		92F5ED6B210F17480025B879 /* client_cert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = client_cert.crt; sourceTree = "<group>"; };
 		92FC585C20FC8A4000474BEC /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		92FC585E20FC8A7200474BEC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -49,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92AAFB3A2119A6900086311B /* libGoFIT_SDK.a in Frameworks */,
 				92FC585F20FC8A7200474BEC /* libz.tbd in Frameworks */,
 				92FC585D20FC8A4000474BEC /* libxml2.tbd in Frameworks */,
 			);
@@ -96,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				929631BA20CFD659007D02F6 /* EmbededFiles */,
-				929047CC20CF9FED009F998F /* libGoFIT_SDK.a */,
 				929047CD20CF9FED009F998F /* GoFIT_SDK.h */,
 				929047CF20CFA0EF009F998F /* Handler+Object.h */,
 			);
@@ -106,10 +94,6 @@
 		929631BA20CFD659007D02F6 /* EmbededFiles */ = {
 			isa = PBXGroup;
 			children = (
-				92F5ED6B210F17480025B879 /* client_cert.crt */,
-				929631BB20CFD659007D02F6 /* binary_list.json */,
-				4BA3192920D6C020004210F6 /* nrf52832_CARE_Xc.hex */,
-				929631BC20CFD659007D02F6 /* nrf52832_CARE_Xe.hex */,
 			);
 			path = EmbededFiles;
 			sourceTree = "<group>";
@@ -180,12 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929631BE20CFD65A007D02F6 /* nrf52832_CARE_Xe.hex in Resources */,
-				929631BD20CFD65A007D02F6 /* binary_list.json in Resources */,
 				929047C220CF9F55009F998F /* LaunchScreen.storyboard in Resources */,
-				4BA3192A20D6C021004210F6 /* nrf52832_CARE_Xc.hex in Resources */,
 				929047BF20CF9F55009F998F /* Assets.xcassets in Resources */,
-				92F5ED6C210F17480025B879 /* client_cert.crt in Resources */,
 				929047BD20CF9F54009F998F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
