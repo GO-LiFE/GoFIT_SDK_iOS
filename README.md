@@ -4,12 +4,16 @@
 
 此為 [GOLiFE](http://www.goyourlife.com) 釋出之官方 iOS App SDK (`Community Edition`).
 
-iOS App 的開發人員，可藉由本 SDK 的整合，便可輕輕鬆鬆快速完成開發。並且，即刻就可直接與市面上 [GOLiFE](http://www.goyourlife.com) 出品銷售之 GOLiFE [Care 系列手環](http://www.goyourlife.com/zh-TW/productlist/#health) 裝置連接。達成包括連線、配對、同步、設定等等各項功能。
-
-使用範例 : 官方版 GOLiFE's [GoFIT App (Apple's App Store 下載)](https://itunes.apple.com/tw/app/golife-fit/id834110307?l=zh).
+讓任何人都可以藉由本 SDK，直接拿 [GOLiFE 市售手環](http://www.goyourlife.com/zh-TW/productlist/#health) 就可以連接、取資料。
 
 
-## 怎麼開始??
+## What's This?
+- iOS App 的開發人員，可藉由本 SDK 的整合，便可輕輕鬆鬆快速完成開發。
+- 並且，即刻就可直接與市面上 [GOLiFE](http://www.goyourlife.com) 出品銷售之 GOLiFE [Care 系列手環](http://www.goyourlife.com/zh-TW/productlist/#health) 裝置連接。達成包括連線、配對、同步、設定等等各項功能。
+- 使用範例 : 官方版 GOLiFE's [GoFIT App (Apple's App Store 下載)](https://itunes.apple.com/tw/app/golife-fit/id834110307?l=zh).
+
+
+## 從哪開始??
 1. 請到 [Release 區](/../../releases) 下載 : 包括 Demo App 的 source code (壓縮檔) 與 SDK libraray (.a)
 
 2. 再請到 [GoFIT SDK 申請表](https://docs.google.com/forms/d/1WutpWDV6VlGUhq2RZs2takjcGKHctG2GYfNQr81CA-0/) 申請試用憑證
