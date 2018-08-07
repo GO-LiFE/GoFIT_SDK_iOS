@@ -25,11 +25,11 @@ iOS App 的開發人員，可藉由本 SDK 的整合，便可輕輕鬆鬆快速�
 
 
 ## Demo App
-請參考我們的 Wiki : [Demo App (SDK 的安裝與 compile)](/../../wiki/Demo-App-(SDK-%E7%9A%84%E5%AE%89%E8%A3%9D%E8%88%87-compile))
+請參考我們的 [Wiki](/../../wiki) : [Demo App (SDK 的安裝與 compile)](/../../wiki/Demo-App-(SDK-%E7%9A%84%E5%AE%89%E8%A3%9D%E8%88%87-compile))
 
 
 ## API SPEC
-請參考我們的 Wiki : [API SPEC](/../../wiki/GoFIT-SDK-iOS-Application-Programming-Interface-Specifications)
+請參考我們的 [Wiki](/../../wiki) : [API SPEC](/../../wiki/GoFIT-SDK-iOS-Application-Programming-Interface-Specifications)
 
 
 ## Copyright and License
