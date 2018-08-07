@@ -29,7 +29,7 @@ iOS App 的開發人員，可藉由本 SDK 的整合，便可輕輕鬆鬆快速�
 
 
 ## API SPEC
-請參考我們的 Wiki : [API SPEC](/../../wiki/GoFIT-SDK-iOS-Application-Programming-Interface-Specifications
+請參考我們的 Wiki : [API SPEC](/../../wiki/GoFIT-SDK-iOS-Application-Programming-Interface-Specifications)
 
 
 ## Copyright and License
