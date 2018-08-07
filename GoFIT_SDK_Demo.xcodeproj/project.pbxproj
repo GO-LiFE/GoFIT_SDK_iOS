@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BA3192A20D6C021004210F6 /* nrf52832_CARE_Xc.hex in Resources */ = {isa = PBXBuildFile; fileRef = 4BA3192920D6C020004210F6 /* nrf52832_CARE_Xc.hex */; };
+		929047B720CF9F53009F998F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929047B620CF9F53009F998F /* AppDelegate.m */; };
+		929047BA20CF9F54009F998F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929047B920CF9F54009F998F /* ViewController.m */; };
+		929047BD20CF9F54009F998F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929047BB20CF9F54009F998F /* Main.storyboard */; };
+		929047BF20CF9F55009F998F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929047BE20CF9F55009F998F /* Assets.xcassets */; };
+		929047C220CF9F55009F998F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929047C020CF9F55009F998F /* LaunchScreen.storyboard */; };
+		929047C520CF9F55009F998F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929047C420CF9F55009F998F /* main.m */; };
+		929631BD20CFD65A007D02F6 /* binary_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 929631BB20CFD659007D02F6 /* binary_list.json */; };
+		929631BE20CFD65A007D02F6 /* nrf52832_CARE_Xe.hex in Resources */ = {isa = PBXBuildFile; fileRef = 929631BC20CFD659007D02F6 /* nrf52832_CARE_Xe.hex */; };
+		92AAFB3A2119A6900086311B /* libGoFIT_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 929047CC20CF9FED009F998F /* libGoFIT_SDK.a */; };
+		92F5ED6C210F17480025B879 /* client_cert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 92F5ED6B210F17480025B879 /* client_cert.crt */; };
+		92FC585D20FC8A4000474BEC /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FC585C20FC8A4000474BEC /* libxml2.tbd */; };
+		92FC585F20FC8A7200474BEC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FC585E20FC8A7200474BEC /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BA3192920D6C020004210F6 /* nrf52832_CARE_Xc.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nrf52832_CARE_Xc.hex; sourceTree = "<group>"; };
+		929047B220CF9F53009F998F /* GoFIT_SDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFIT_SDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929047B520CF9F53009F998F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		929047B620CF9F53009F998F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929047B820CF9F53009F998F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		929047B920CF9F54009F998F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		929047BC20CF9F54009F998F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929047BE20CF9F55009F998F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929047C120CF9F55009F998F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		929047C320CF9F55009F998F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929047C420CF9F55009F998F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		929047CC20CF9FED009F998F /* libGoFIT_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoFIT_SDK.a; sourceTree = "<group>"; };
+		929047CD20CF9FED009F998F /* GoFIT_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoFIT_SDK.h; sourceTree = "<group>"; };
+		929047CF20CFA0EF009F998F /* Handler+Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Handler+Object.h"; sourceTree = "<group>"; };
+		929631BB20CFD659007D02F6 /* binary_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = binary_list.json; sourceTree = "<group>"; };
+		929631BC20CFD659007D02F6 /* nrf52832_CARE_Xe.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nrf52832_CARE_Xe.hex; sourceTree = "<group>"; };
+		92F5ED6B210F17480025B879 /* client_cert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = client_cert.crt; sourceTree = "<group>"; };
+		92FC585C20FC8A4000474BEC /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		92FC585E20FC8A7200474BEC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929047AF20CF9F53009F998F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AAFB3A2119A6900086311B /* libGoFIT_SDK.a in Frameworks */,
+				92FC585F20FC8A7200474BEC /* libz.tbd in Frameworks */,
+				92FC585D20FC8A4000474BEC /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929047A920CF9F53009F998F = {
+			isa = PBXGroup;
+			children = (
+				929047B420CF9F53009F998F /* GoFIT_SDK_Demo */,
+				929047B320CF9F53009F998F /* Products */,
+				92A3AA3520F8C04C0052BE00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		929047B320CF9F53009F998F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929047B220CF9F53009F998F /* GoFIT_SDK_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929047B420CF9F53009F998F /* GoFIT_SDK_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				929047CB20CF9FED009F998F /* GoFIT_SDK */,
+				929047B520CF9F53009F998F /* AppDelegate.h */,
+				929047B620CF9F53009F998F /* AppDelegate.m */,
+				929047B820CF9F53009F998F /* ViewController.h */,
+				929047B920CF9F54009F998F /* ViewController.m */,
+				929047BB20CF9F54009F998F /* Main.storyboard */,
+				929047BE20CF9F55009F998F /* Assets.xcassets */,
+				929047C020CF9F55009F998F /* LaunchScreen.storyboard */,
+				929047C320CF9F55009F998F /* Info.plist */,
+				929047C420CF9F55009F998F /* main.m */,
+			);
+			path = GoFIT_SDK_Demo;
+			sourceTree = "<group>";
+		};
+		929047CB20CF9FED009F998F /* GoFIT_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				929631BA20CFD659007D02F6 /* EmbededFiles */,
+				929047CC20CF9FED009F998F /* libGoFIT_SDK.a */,
+				929047CD20CF9FED009F998F /* GoFIT_SDK.h */,
+				929047CF20CFA0EF009F998F /* Handler+Object.h */,
+			);
+			path = GoFIT_SDK;
+			sourceTree = "<group>";
+		};
+		929631BA20CFD659007D02F6 /* EmbededFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92F5ED6B210F17480025B879 /* client_cert.crt */,
+				929631BB20CFD659007D02F6 /* binary_list.json */,
+				4BA3192920D6C020004210F6 /* nrf52832_CARE_Xc.hex */,
+				929631BC20CFD659007D02F6 /* nrf52832_CARE_Xe.hex */,
+			);
+			path = EmbededFiles;
+			sourceTree = "<group>";
+		};
+		92A3AA3520F8C04C0052BE00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FC585E20FC8A7200474BEC /* libz.tbd */,
+				92FC585C20FC8A4000474BEC /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929047B120CF9F53009F998F /* GoFIT_SDK_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929047C820CF9F55009F998F /* Build configuration list for PBXNativeTarget "GoFIT_SDK_Demo" */;
+			buildPhases = (
+				929047AE20CF9F53009F998F /* Sources */,
+				929047AF20CF9F53009F998F /* Frameworks */,
+				929047B020CF9F53009F998F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoFIT_SDK_Demo;
+			productName = GoFIT_Demo;
+			productReference = 929047B220CF9F53009F998F /* GoFIT_SDK_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929047AA20CF9F53009F998F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = GOLiFE;
+				TargetAttributes = {
+					929047B120CF9F53009F998F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 929047AD20CF9F53009F998F /* Build configuration list for PBXProject "GoFIT_SDK_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929047A920CF9F53009F998F;
+			productRefGroup = 929047B320CF9F53009F998F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929047B120CF9F53009F998F /* GoFIT_SDK_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929047B020CF9F53009F998F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929631BE20CFD65A007D02F6 /* nrf52832_CARE_Xe.hex in Resources */,
+				929631BD20CFD65A007D02F6 /* binary_list.json in Resources */,
+				929047C220CF9F55009F998F /* LaunchScreen.storyboard in Resources */,
+				4BA3192A20D6C021004210F6 /* nrf52832_CARE_Xc.hex in Resources */,
+				929047BF20CF9F55009F998F /* Assets.xcassets in Resources */,
+				92F5ED6C210F17480025B879 /* client_cert.crt in Resources */,
+				929047BD20CF9F54009F998F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929047AE20CF9F53009F998F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929047BA20CF9F54009F998F /* ViewController.m in Sources */,
+				929047C520CF9F55009F998F /* main.m in Sources */,
+				929047B720CF9F53009F998F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		929047BB20CF9F54009F998F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929047BC20CF9F54009F998F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		929047C020CF9F55009F998F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929047C120CF9F55009F998F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929047C620CF9F55009F998F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		929047C720CF9F55009F998F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929047C920CF9F55009F998F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZNG62E4R97;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/GoFIT_SDK_Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoFIT_SDK_Demo/GoFIT_SDK",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.golife.GoFIT-SDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		929047CA20CF9F55009F998F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZNG62E4R97;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/GoFIT_SDK_Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoFIT_SDK_Demo/GoFIT_SDK",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.golife.GoFIT-SDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929047AD20CF9F53009F998F /* Build configuration list for PBXProject "GoFIT_SDK_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929047C620CF9F55009F998F /* Debug */,
+				929047C720CF9F55009F998F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929047C820CF9F55009F998F /* Build configuration list for PBXNativeTarget "GoFIT_SDK_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929047C920CF9F55009F998F /* Debug */,
+				929047CA20CF9F55009F998F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929047AA20CF9F53009F998F /* Project object */;
+}

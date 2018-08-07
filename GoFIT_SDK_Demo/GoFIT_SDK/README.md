@@ -1,0 +1,1 @@
+請於 [本 project 於 GitHub 上之 release](https://github.com/GO-LiFE/GoFIT_SDK_iOS/releases) 下載對應版本的 `libGoFIT_SDK.a`，並將之放在此目錄內。

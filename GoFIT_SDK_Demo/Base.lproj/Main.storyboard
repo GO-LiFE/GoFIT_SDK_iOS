@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YFl-bI-XGG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="hPs-W5-EXt">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YFl-bI-XGG" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oxB-TT-ggC"/>
+                        <viewControllerLayoutGuide type="bottom" id="C1i-mS-kbk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g9Q-kI-fHm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="28O-3S-ZpC">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="UbT-eU-p5W"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="GoFIT SDK Demo" id="q5v-aX-BEs"/>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="twt-4J-PPq">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="YFl-bI-XGG" id="1X0-AT-3SB"/>
+                                    <outlet property="delegate" destination="YFl-bI-XGG" id="LKT-Ay-bml"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="w3i-92-R3r">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="w3i-92-R3r" firstAttribute="centerX" secondItem="g9Q-kI-fHm" secondAttribute="centerX" id="9aW-TX-dc5"/>
+                            <constraint firstItem="28O-3S-ZpC" firstAttribute="centerX" secondItem="g9Q-kI-fHm" secondAttribute="centerX" id="CuL-BA-oZD"/>
+                            <constraint firstItem="w3i-92-R3r" firstAttribute="centerY" secondItem="g9Q-kI-fHm" secondAttribute="centerY" id="Eew-E7-Lol"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="twt-4J-PPq" secondAttribute="trailing" constant="-16" id="KFH-FX-tht"/>
+                            <constraint firstItem="28O-3S-ZpC" firstAttribute="top" secondItem="oxB-TT-ggC" secondAttribute="bottom" id="Uh7-qB-mqh"/>
+                            <constraint firstItem="28O-3S-ZpC" firstAttribute="leading" secondItem="g9Q-kI-fHm" secondAttribute="leadingMargin" constant="-16" id="Wxt-06-QVf"/>
+                            <constraint firstItem="twt-4J-PPq" firstAttribute="centerX" secondItem="g9Q-kI-fHm" secondAttribute="centerX" id="YVL-z1-eOY"/>
+                            <constraint firstItem="twt-4J-PPq" firstAttribute="leading" secondItem="g9Q-kI-fHm" secondAttribute="leadingMargin" constant="-16" id="dGc-lj-Uvn"/>
+                            <constraint firstItem="C1i-mS-kbk" firstAttribute="top" secondItem="twt-4J-PPq" secondAttribute="bottom" id="dV3-Or-l91"/>
+                            <constraint firstItem="twt-4J-PPq" firstAttribute="top" secondItem="28O-3S-ZpC" secondAttribute="bottom" id="lO7-Jb-x8D"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="m_spinner" destination="w3i-92-R3r" id="U8g-GB-NTJ"/>
+                        <outlet property="m_tableView" destination="twt-4J-PPq" id="IKd-US-4u2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e4x-TO-Jsf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799" y="33"/>
+        </scene>
+    </scenes>
+</document>
