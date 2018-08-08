@@ -33,6 +33,12 @@
 ## Demo App
 請參考我們的 [Wiki](/../../wiki) : [Demo App (SDK 的安裝與 compile)](/../../wiki/Demo-App-(SDK-%E7%9A%84%E5%AE%89%E8%A3%9D%E8%88%87-compile))
 
+※ 請注意，repostitory 內附為使用 Xcode v9.3 或以上。如果您不想升級 Xcode 而想使用較低版本，可以試著將 .xcodeproj 裡面的 `compatibilityVersion`, `objectVersion` 修改如下 : 
+
+ ```
+ compatibilityVersion = "Xcode 8.0"
+ objectVersion = 48
+ ```
 
 ## API SPEC
 請參考我們的 [Wiki](/../../wiki) : [API SPEC](/../../wiki/GoFIT-SDK-iOS-Application-Programming-Interface-Specifications)
