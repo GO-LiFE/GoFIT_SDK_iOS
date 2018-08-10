@@ -6,6 +6,8 @@
 
 讓任何人都可以藉由本 SDK，直接拿 [GOLiFE 市售手環](http://www.goyourlife.com/zh-TW/productlist/#health) 就可以連接、取資料。
 
+(尋找 Anrdoid 版嗎? 請到 [此處](/../../../GoFIT_SDK_Android))
+
 
 ## What's This?
 - iOS App 的開發人員，可藉由本 SDK 的整合，便可輕輕鬆鬆快速完成開發。
