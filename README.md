@@ -44,6 +44,7 @@
  objectVersion = 48
  ```
 
+
 ## API SPEC
 請參考我們的 [Wiki](/../../wiki) : [API SPEC](/../../wiki/GoFIT-SDK-iOS-Application-Programming-Interface-Specifications)
 
@@ -73,6 +74,11 @@
 | 鬧鐘 | <ul><li>- [x] 30 組 </li></ul> | <ul><li>- [x] 30 組 </li></ul> | <ul><li>- [x] 30 組 </li></ul> | <ul><li>- [x] 30 組 </li></ul> | <ul><li>- [x] 30 組 </li></ul> |
 | 自動睡眠偵測 |    |    | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | 可同步項目 | <ul><li>- [x] 步數</li><li>- [x] 睡眠</li></ul> | <ul><li>- [x] 步數</li><li>- [x] 睡眠</li></ul> | <ul><li>- [x] 步數</li><li>- [x] 睡眠</li><li>- [x] 心率</li><li>- [ ] 血氧</li></ul> | <ul><li>- [x] 步數</li><li>- [x] 睡眠</li><li>- [x] 心率</li></ul> | <ul><li>- [x] 步數</li><li>- [x] 睡眠</li><li>- [x] 心率</li></ul> |
+
+
+## 有任何疑問嗎?
+歡迎您到 [Issues 區](/../../issues) 留言~ 我們會第一時間回答您。
+
 
 ## Copyright and License
 此為 `Community Edition`.
