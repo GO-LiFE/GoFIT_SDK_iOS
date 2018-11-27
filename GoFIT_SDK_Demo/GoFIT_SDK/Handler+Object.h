@@ -1,12 +1,10 @@
-/**
- * Project : GoFIT SDK
- * 
- * Demo App for GoFIT SDK.
- *
- * @author Rik Tsai <rik.tsai@goyourlife.com>
- * @link http://www.goyourlife.com
- * @copyright Copyright &copy; 2018 GOYOURLIFE INC.
- */
+//
+//  Handler+Object.h
+//  GoFIT_SDK
+//
+//  Created by Rik Tsai on 2018/5/31.
+//  Copyright © 2018年 GOLiFE. All rights reserved.
+//
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -81,6 +79,7 @@ typedef NS_ENUM(NSUInteger, E_RESPONSE_CODE)
 };
 
 typedef void (^CompletionHandler)(E_RESPONSE_CODE, id);
+typedef void (^FindMyPhoneHandler)(void);
 
 @interface ResponseInfo : NSObject
 
@@ -119,6 +118,26 @@ typedef void (^CompletionHandler)(E_RESPONSE_CODE, id);
 
 @property (nonatomic, retain) NSNumber * timestamp;   // Unix Time, i.e., number of seconds that have elapsed since 00:00:00 UTC time, 1 January 1970
 @property (nonatomic, retain) NSNumber * pulse;       // Heart Rate counts
+
+@end
+
+@interface FitnessSpO2 : NSObject
+
+@property (nonatomic, retain) NSNumber * timestamp;   // Unix Time, i.e., number of seconds that have elapsed since 00:00:00 UTC time, 1 January 1970
+@property (nonatomic, retain) NSNumber * spo2;        // SpO2 血氧值
+
+@end
+
+@interface FitnessActivity : NSObject
+
+@property (nonatomic, retain) NSString * timezone;
+@property (nonatomic, retain) id stats;
+@property (nonatomic, retain) NSNumber * typeID;
+@property (nonatomic, retain) id gpsData;
+@property (nonatomic, retain) id lapStatsData;
+@property (nonatomic, retain) NSString * sourceName;
+@property (nonatomic, retain) NSNumber * startRecordTime;
+@property (nonatomic, retain) NSNumber * nmeaVer;
 
 @end
 
