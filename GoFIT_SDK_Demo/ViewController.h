@@ -1,12 +1,10 @@
-/**
- * Project : GoFIT SDK
- * 
- * Demo App for GoFIT SDK.
- *
- * @author Rik Tsai <rik.tsai@goyourlife.com>
- * @link http://www.goyourlife.com
- * @copyright Copyright &copy; 2018 GOYOURLIFE INC.
- */
+//
+//  ViewController.h
+//  GoFIT_SDK_Demo
+//
+//  Created by Rik Tsai on 2018/6/12.
+//  Copyright © 2018年 GOLiFE. All rights reserved.
+//
 
 #import <UIKit/UIKit.h>
 
