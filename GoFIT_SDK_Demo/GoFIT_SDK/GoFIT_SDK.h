@@ -1,18 +1,18 @@
-/**
- * Project : GoFIT SDK
- * 
- * Demo App for GoFIT SDK.
- *
- * @author Rik Tsai <rik.tsai@goyourlife.com>
- * @link http://www.goyourlife.com
- * @copyright Copyright &copy; 2018 GOYOURLIFE INC.
- */
+//
+//  GoFIT_SDK.h
+//  GoFIT_SDK
+//
+//  Created by Rik Tsai on 2018/5/31.
+//  Copyright © 2018年 GOLiFE. All rights reserved.
+//
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 #import "Handler+Object.h"
 
 @interface GoFIT_SDK : NSObject
+
+@property (nonatomic,weak) FindMyPhoneHandler findMyPhoneHandler;
 
 + (GoFIT_SDK*)shareInstance;
 
@@ -35,6 +35,9 @@
               andProductID:(NSString*)productID
                    success:(void (^)(ResponseInfo *resp))success
                    failure:(void (^)(ResponseInfo *resp))failure;
+
+- (void)doBondingANCS:(void (^)(ResponseInfo *resp))success
+              failure:(void (^)(ResponseInfo *resp))failure;
 
 - (void)doConnectDevice:(NSString*)uuidStr
            andProductID:(NSString*)productID
@@ -60,6 +63,10 @@
 - (void)doDFU:(void (^)(int progressValue))progress
       success:(void (^)(ResponseInfo *resp))success
       failure:(void (^)(ResponseInfo *resp))failure;
+
+- (void)doFindMyCare:(NSInteger)vibrationCount
+             success:(void (^)(ResponseInfo *resp))success
+             failure:(void (^)(ResponseInfo *resp))failure;
 
 - (void)doDisconnectDevice;
 
